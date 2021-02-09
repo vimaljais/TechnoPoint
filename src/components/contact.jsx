@@ -7,7 +7,7 @@ export class Contact extends Component {
       e.preventDefault();
       // service id, template id and user id from EmailJS Template
   
-      emailjs.sendForm('/SERVICE_ID/', 'TEMPLATE_ID', e.target, 'USER_ID')
+      emailjs.sendForm('service_gxlsi8o', 'template_57rlip5', e.target, 'user_gmc6sDbTid2t5kx0z3Fdd')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
