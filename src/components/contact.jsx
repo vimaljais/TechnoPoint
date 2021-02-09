@@ -1,7 +1,21 @@
 import React, { Component } from "react";
+import emailjs from 'emailjs-com';
 
 export class Contact extends Component {
   render() {
+    function sendEmail(e) {
+      e.preventDefault();
+      // service id, template id and user id from EmailJS Template
+  
+      emailjs.sendForm('service_gxlsi8o', 'template_57rlip5', e.target, 'user_gmc6sDbTid2t5kx0z3Fdd')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    }
+    
     return (
       <div>
         <div id="contact">
@@ -15,7 +29,7 @@ export class Contact extends Component {
                     will get back to you as soon as possible.
                   </p>
                 </div>
-                <form name="sentMessage" id="contactForm" noValidate>
+                <form onSubmit={sendEmail} name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -25,6 +39,7 @@ export class Contact extends Component {
                           className="form-control"
                           placeholder="Name"
                           required="required"
+                          name="name"
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -37,6 +52,7 @@ export class Contact extends Component {
                           className="form-control"
                           placeholder="Email"
                           required="required"
+                          name="email"
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -44,11 +60,11 @@ export class Contact extends Component {
                   </div>
                   <div className="form-group">
                     <textarea
-                      name="message"
                       id="message"
                       className="form-control"
                       rows="4"
                       placeholder="Message"
+                      name="message"
                       required
                     ></textarea>
                     <p className="help-block text-danger"></p>
