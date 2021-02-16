@@ -203,6 +203,69 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg">
+                    {" "}
+                    <a
+                      href="img/portfolio/10-large.jpg"
+                      title="Project Title"
+                      data-lightbox-gallery="gallery1"
+                    >
+                      <div className="hover-text">
+                        <h4>Lorem Ipsum</h4>
+                      </div>
+                      <img
+                        src="img/portfolio/10-small.jpg"
+                        className="img-responsive"
+                        alt="Project Title"
+                      />{" "}
+                    </a>{" "}
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg">
+                    {" "}
+                    <a
+                      href="img/portfolio/11-large.jpg"
+                      title="Project Title"
+                      data-lightbox-gallery="gallery1"
+                    >
+                      <div className="hover-text">
+                        <h4>Lorem Ipsum</h4>
+                      </div>
+                      <img
+                        src="img/portfolio/11-small.jpg"
+                        className="img-responsive"
+                        alt="Project Title"
+                      />{" "}
+                    </a>{" "}
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg">
+                    {" "}
+                    <a
+                      href="img/portfolio/12-large.jpg"
+                      title="Project Title"
+                      data-lightbox-gallery="gallery1"
+                    >
+                      <div className="hover-text">
+                        <h4>Lorem Ipsum</h4>
+                      </div>
+                      <img
+                        src="img/portfolio/12-small.jpg"
+                        className="img-responsive"
+                        alt="Project Title"
+                      />{" "}
+                    </a>{" "}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

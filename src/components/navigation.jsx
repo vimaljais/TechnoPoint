@@ -5,32 +5,35 @@ export class Navigation extends Component {
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
-        
           <div className="navbar-header">
-          
             <button
               type="button"
               className="navbar-toggle collapsed"
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
             >
-             
               {" "}
               <span className="sr-only">Toggle navigation</span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <img src="img/logo.svg" height="90px" width="90px" alt=""  style={{marginLeft:'-285px', marginTop:''}}/>
-            
+            <img
+              src="img/logo.svg"
+              height="90px"
+              width="90px"
+              alt=""
+              style={{ marginLeft: "-285px", marginTop: "" }}
+            />
+
             <a
-              style={{ color: "darkcyan",fontSize:'' }}
+              style={{ color: "darkcyan", fontSize: "" }}
               className="navbar-brand page-scroll"
               href="#page-top"
             >
-               
               TechnoPoint
-            </a>{""}
+            </a>
+            {""}
           </div>
 
           <div
