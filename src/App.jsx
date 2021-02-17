@@ -7,8 +7,10 @@ import Services from "./components/services";
 import Gallery from "./components/gallery";
 //import Testimonials from "./components/testimonials";
 import Team from "./components/Team";
+import Map from "./components/map";
 import Contact from "./components/contact";
 import JsonData from "./data/data.json";
+import { SliderData } from './components/SliderData';
 
 export class App extends Component {
   state = {
@@ -32,6 +34,7 @@ export class App extends Component {
         <About data={this.state.landingPageData.About} />
 
         <Gallery />
+        <Map slides={SliderData}/>
         {/*  <Testimonials data={this.state.landingPageData.Testimonials} /> */}
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />

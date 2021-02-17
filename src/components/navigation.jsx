@@ -4,10 +4,8 @@ export class Navigation extends Component {
   render() {
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-        <div className="container">
-        
+        <div className="container">        
           <div className="navbar-header">
-          
             <button
               type="button"
               className="navbar-toggle collapsed"
@@ -21,10 +19,14 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <img src="img/logo.svg" height="90px" width="90px" alt=""  style={{marginLeft:'-285px', marginTop:''}}/>
+            <img src="img/logo.svg" height="90px" width="90px" alt=""  style={{
+                 marginLeft:'-285px',
+                 marginTop:'',
+                 cursor:'pointer'
+              }}/>
             
             <a
-              style={{ color: "darkcyan",fontSize:'' }}
+              style={{ color: "darkcyan",fontSize:''}}
               className="navbar-brand page-scroll"
               href="#page-top"
             >
@@ -59,6 +61,13 @@ export class Navigation extends Component {
                   Gallery
                 </a>
               </li>
+              <li>
+              <a href="#maps" className="page-scroll">
+                  Maps
+                </a>
+              </li>
+              
+              
               {/*               <li>
                 <a href="#testimonials" className="page-scroll">
                   Testimonials
