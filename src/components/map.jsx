@@ -33,7 +33,7 @@ const Map = ({ slides }) => {
           top:'50%',
           left:'32px',
           fontSize:'3rem',
-          color:'#000',
+          color:'darkcyan',
           zIndex:'10',
           cursor:'pointer',
           userSelect:'none'
@@ -43,7 +43,7 @@ const Map = ({ slides }) => {
           top:'50%',
           right:'32px',
           fontSize:'3rem',
-          color:'#000',
+          color:'darkcyan',
           zIndex:'10',
           cursor:'pointer',
           userSelect:'none'
