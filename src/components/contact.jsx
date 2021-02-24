@@ -1,21 +1,30 @@
 import React, { Component } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 export class Contact extends Component {
   render() {
     function sendEmail(e) {
       e.preventDefault();
       // service id, template id and user id from EmailJS Template
-  
-      emailjs.sendForm('service_gxlsi8o', 'template_57rlip5', e.target, 'user_gmc6sDbTid2t5kx0z3Fdd')
-        .then((result) => {
+
+      emailjs
+        .sendForm(
+          "service_gxlsi8o",
+          "template_57rlip5",
+          e.target,
+          "user_gmc6sDbTid2t5kx0z3Fdd"
+        )
+        .then(
+          (result) => {
             console.log(result.text);
-        }, (error) => {
+          },
+          (error) => {
             console.log(error.text);
-        });
-        e.target.reset();
+          }
+        );
+      e.target.reset();
     }
-    
+
     return (
       <div>
         <div id="contact">
@@ -29,7 +38,12 @@ export class Contact extends Component {
                     will get back to you as soon as possible.
                   </p>
                 </div>
-                <form onSubmit={sendEmail} name="sentMessage" id="contactForm" noValidate>
+                <form
+                  onSubmit={sendEmail}
+                  name="sentMessage"
+                  id="contactForm"
+                  noValidate
+                >
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -105,7 +119,7 @@ export class Contact extends Component {
             </div>
             <div className="col-md-12">
               <div className="row">
-                <div className="social">
+                {/*                 <div className="social">
                   <ul>
                     <li>
                       <a
@@ -125,12 +139,12 @@ export class Contact extends Component {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-        <div id="footer">
+        {/*         <div id="footer">
           <div className="container text-center">
             <p>
               &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
@@ -139,7 +153,7 @@ export class Contact extends Component {
               </a>
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

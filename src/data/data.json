@@ -1,8 +1,8 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "We are TechnoPoint",
+        "paragraph": "At TechnoPoint, we provide effective leadership, sharp attention to detail and a valued partnership you can count on throughout the life of your project."
 
     },
     "About": {
@@ -22,27 +22,27 @@
     },
     "Services": [{
             "name": "Consulting Civil Engineer",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "We provide expert advice, planning and management of civil construction projects, covering  residential and commercial construction."
         },
         {
             "name": "Construction Estimation",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "We help you finalize the approximate amount of cost & quantity of material required for constructing a home."
         },
         {
             "name": "Construction Survey",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "We direct and conduct legal surveys to determine property boundaries, and prepare and maintain plans and records."
         },
         {
             "name": "Interior Designer",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "We make indoor spaces functional, safe, and beautiful by determining space requirements and selecting essential and decorative items."
         },
         {
             "name": "Building Planning",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "We provide customized House Plan, building plans, residential building plans and commercial building plan."
         },
         {
             "name": "Supervision",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "We oversee the construction of projects and monitor activities at worksites."
         }
 
 
@@ -99,12 +99,12 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "address": "Hasanpur, Manduadih, DLW Road (Near Kakarmatta Railway Crossing) ",
+        "phone": "+91 9621788829, 8179088829",
+        "email": "theabhinav1490@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "youtube": ""
     },
     "Features": [{
             "icon": "fa fa-comments-o",
