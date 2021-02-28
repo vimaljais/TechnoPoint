@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import sketch from "./sketch.svg";
+import bp from "./img/bp.svg";
+import consulting from "./img/consulting.svg";
+import ed from "./img/ed.svg";
+import estimation from "./img/estimation.svg";
+import survey from "./img/survey.svg";
+import supervision from "./img/supervision.png";
+
+const col = [bp, estimation, survey, ed, consulting, supervision];
 
 export class Services extends Component {
   render() {
@@ -8,17 +15,13 @@ export class Services extends Component {
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p>
           </div>
           <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
                   <div key={`${d.name}-${i}`} className="col-md-4">
                     {" "}
-                    <img alt="dadad" src={sketch} height="100" width="auto" />
+                    <img alt="dadad" src={col[i]} height="100" width="auto" />
                     <div className="service-desc">
                       <h3>{d.name}</h3>
                       <p>{d.text}</p>

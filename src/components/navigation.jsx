@@ -4,7 +4,7 @@ export class Navigation extends Component {
   render() {
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-        <div className="container">        
+        <div className="container">
           <div className="navbar-header">
             <button
               type="button"
@@ -12,27 +12,28 @@ export class Navigation extends Component {
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
             >
-             
               {" "}
               <span className="sr-only">Toggle navigation</span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <img src="img/logo.svg" height="90px" width="90px" alt=""  style={{
-                 marginLeft:'-285px',
-                 marginTop:'',
-                 cursor:'pointer'
-              }}/>
-            
+            <img
+              src="img/logo.svg"
+              height="90px"
+              width="90px"
+              alt=""
+              style={{ marginLeft: "-285px", marginTop: "" }}
+            />
+
             <a
-              style={{ color: "darkcyan",fontSize:''}}
+              style={{ color: "darkcyan", fontSize: "" }}
               className="navbar-brand page-scroll"
               href="#page-top"
             >
-               
               TechnoPoint
-            </a>{""}
+            </a>
+            {""}
           </div>
 
           <div
@@ -51,31 +52,24 @@ export class Navigation extends Component {
                   Services
                 </a>
               </li>
-              <li>
+              {/*               <li>
                 <a href="#about" className="page-scroll">
                   About
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#portfolio" className="page-scroll">
                   Gallery
                 </a>
               </li>
-              <li>
-              <a href="#maps" className="page-scroll">
-                  Maps
-                </a>
-              </li>
-              
-              
               {/*               <li>
                 <a href="#testimonials" className="page-scroll">
                   Testimonials
                 </a>
               </li> */}
               <li>
-                <a href="#team" className="page-scroll">
-                  Team
+                <a href="#maps" className="page-scroll">
+                  Maps
                 </a>
               </li>
               <li>
