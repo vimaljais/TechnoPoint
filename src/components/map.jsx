@@ -51,10 +51,9 @@ const Map = ({ slides }) => {
       <div id="maps" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Floor plans</h2>
+            <h2>Our Floor plans</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+             We have thousands of home plan designs and blueprints to choose from. Free customization quotes for most house plans.
             </p>
           </div>
 
