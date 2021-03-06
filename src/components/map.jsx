@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { SliderData } from './SliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import Magnifier from "react-magnifier";
+
 
 const Map = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -74,11 +76,12 @@ const Map = ({ slides }) => {
           >
             
             {index === current && (
-              <img src={slide.image} alt="" className='image' style={{
-                  width:'1000px',
-                  height:'600px',
-                  borderRadius:'10px'
-              }} />
+              <Magnifier src={slide.image}  className='image' zoomFactor="1.5" style={{
+                width:'1000px',
+                height:'600px',
+                borderRadius:'10px'
+            }} />
+
             )}
           </div>
         );

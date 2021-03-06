@@ -13,5 +13,41 @@ export const SliderData = [
     },
     {
       image:'img/maps/05.jpg'
+    },
+    {
+      image:'img/maps/06.jpg'
+    },
+    {
+      image:'img/maps/07.jpg'
+    },
+    {
+      image:'img/maps/08.jpg'
+    },
+    {
+      image:'img/maps/09.jpg'
+    },
+    {
+      image:'img/maps/10.jpg'
+    },
+    {
+      image:'img/maps/11.jpg'
+    },
+    {
+      image:'img/maps/12.jpg'
+    },
+    {
+      image:'img/maps/13.jpg'
+    },
+    {
+      image:'img/maps/14.jpg'
+    },
+    {
+      image:'img/maps/15.jpg'
+    },
+    {
+      image:'img/maps/16.jpg'
+    },
+    {
+      image:'img/maps/17.jpg'
     }
   ];
