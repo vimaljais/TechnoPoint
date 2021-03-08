@@ -29,8 +29,8 @@ export const GlobalStyle = createGlobalStyle`
   .navbar-header {
  
 
-        margin-left:55px !important;
-      margin-right:25px !important;
+        margin-left:58px !important;
+      margin-right:5px !important;
 
   }
 
