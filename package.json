@@ -10,7 +10,8 @@
     "react-dom": "^16.14.0",
     "react-icons": "^4.2.0",
     "react-magnifier": "^3.0.4",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
